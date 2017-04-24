@@ -8,19 +8,19 @@ namespace Sample
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Print(int a)
         {
-            Console.WriteLine("Hello Garci");
-            Console.WriteLine("Team High Five");
-            Console.WriteLine("Team Syntax Error");
-            Console.WriteLine("School Management System");
-            Console.WriteLine("Social Media App");
-            Console.WriteLine("Lester Jose");
-            Console.WriteLine("Miguel Silva");
-            Console.WriteLine("Danilo Mabulac");
-             Console.WriteLine("Max Consul Jr.");
-            Console.WriteLine("Mhelvin Roman");
-            Console.ReadKey();
+            Console.WriteLine(a * a);
+        }
+        static void Print(double a)
+        {
+            Console.WriteLine(a + a);
+        }
+        static void Main(string[] args)
+        { 
+                Print(3);
+            Console.Read();
+            
         }
     }
 }

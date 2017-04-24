@@ -13,7 +13,7 @@ namespace Sample
         {
             Console.WriteLine("Hello World");
             Console.WriteLine("School Management System");
-            Console.WriteLine("Dans");
+            Console.WriteLine("Ruth");
             Console.Read();
             
         }

@@ -12,6 +12,7 @@ namespace Sample
         {
             Console.WriteLine("Hello Garci");
             Console.WriteLine("Team High Five");
+            Console.WriteLine("Team Syntax Error");
             Console.ReadKey();
         }
     }

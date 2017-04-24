@@ -17,6 +17,7 @@ namespace Sample
             Console.WriteLine("Social Media App");
             Console.WriteLine("Lester Jose");
             Console.WriteLine("Miguel Silva");
+            Console.WriteLine("Danilo Mabulac");
             Console.ReadKey();
         }
     }

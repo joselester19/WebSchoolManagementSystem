@@ -14,6 +14,7 @@ namespace Sample
             Console.WriteLine("Team High Five");
             Console.WriteLine("Team Syntax Error");
             Console.WriteLine("School Management System");
+            Console.WriteLine("Social Media App");
             Console.ReadKey();
         }
     }

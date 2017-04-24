@@ -14,6 +14,7 @@ namespace Sample
             Console.WriteLine("Hello World");
             Console.WriteLine("School Management System");
             Console.WriteLine("Ruth");
+            Console.WriteLine("Lester");
             Console.Read();
             
         }

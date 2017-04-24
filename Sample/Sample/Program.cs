@@ -8,17 +8,10 @@ namespace Sample
 {
     class Program
     {
-        static void Print(int a)
-        {
-            Console.WriteLine(a * a);
-        }
-        static void Print(double a)
-        {
-            Console.WriteLine(a + a);
-        }
+
         static void Main(string[] args)
-        { 
-                Print(3);
+        {
+            Console.WriteLine("Hello World");
             Console.Read();
             
         }

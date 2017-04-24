@@ -1,1 +1,4 @@
 C:\TeamHighFive\WebSchoolManagementSystem\Sample\Sample\bin\Debug\Sample.exe.config
+C:\Basecamp\OJT Project\Sample\Sample\Sample\bin\Debug\Sample.exe.config
+C:\Basecamp\OJT Project\Sample\Sample\Sample\obj\Debug\Sample.exe
+C:\Basecamp\OJT Project\Sample\Sample\Sample\obj\Debug\Sample.pdb

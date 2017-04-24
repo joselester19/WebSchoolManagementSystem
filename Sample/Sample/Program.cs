@@ -18,7 +18,8 @@ namespace Sample
             Console.WriteLine("Lester Jose");
             Console.WriteLine("Miguel Silva");
             Console.WriteLine("Danilo Mabulac");
-            Console.WriteLine("Max Consul Jr.");
+             Console.WriteLine("Max Consul Jr.");
+            Console.WriteLine("Mhelvin Roman");
             Console.ReadKey();
         }
     }

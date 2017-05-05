@@ -1,1 +1,2 @@
 C:\TeamHighFive\WebSchoolManagementSystem\Sample\Sample\bin\Debug\Sample.exe.config
+C:\SchoolManagement\SchoolManagement\Sample\Sample\bin\Debug\Sample.exe.config

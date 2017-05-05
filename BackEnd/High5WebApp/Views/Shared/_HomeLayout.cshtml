@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/Design.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.css" type="text/css" rel="stylesheet"/>
+    @{ 
+        var allFaculties = @Html.Raw(Json.Encode("asd"));
+    }
+</head>
+<body>
+    <div class="container-fluid">
+       <div class="col-md-12">
+         <div class="row">
+
+
+            <nav class="navbar navbar-inverse" style="background-color:black">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <p class="h2" style="position:relative;top:5px;font-family:Lucida Console;">&nbsp;&nbsp;High Fiveoulus&nbsp;&nbsp;&nbsp;</p>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar" style="position:relative;margin-top:1px">
+                        <ul class="nav navbar-nav">
+                            <li>@Html.ActionLink("Home", "StartUp", "Home")</li>
+
+
+                            <li class="dropdown">
+                                  @Html.ActionLink("About", "StartUp", "Home", new { @class = "dropdown-toggle", @data_toggle = "modal" })
+                               
+                                    <ul class="dropdown-menu">
+                                    <li>@Html.ActionLink("Mission", "Mission", "Home")</li>
+                                    <li>@Html.ActionLink("Vision", "Vision", "Home")</li>
+                                </ul>
+                            </li>
+
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                           
+
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>@Html.ActionLink("LogIn", "Main", "Admin")</li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+  </div>
+    <div class="container body-content">
+        @RenderBody()
+        <footer>
+            <p>&copy; @DateTime.Now.Year - #Team HighFive</p>
+        </footer>
+    </div>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

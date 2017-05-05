@@ -1,0 +1,74 @@
+﻿@model IEnumerable<BackEnd.Services.Models.Entities.Teacher>
+
+@{
+    ViewBag.Title = "TeacherView";
+}
+
+<h2>TeacherView</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddTeacherView")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TeacherUsername)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TeacherPassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TeacherFullname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TeacherBirthdate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TeacherGender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TeacherAge)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TeacherAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TeacherNationality)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TeacherUsername)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TeacherPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TeacherFullname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TeacherBirthdate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TeacherGender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TeacherAge)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TeacherAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TeacherNationality)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditTeacherView", new { xid = item.TeacherId })
+
+        </td>
+    </tr>
+}
+
+</table>

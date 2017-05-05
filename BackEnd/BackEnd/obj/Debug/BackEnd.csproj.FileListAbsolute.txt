@@ -1,0 +1,9 @@
+C:\Users\BASECAMP\Desktop\max\BackEnd\BackEnd\bin\Debug\BackEnd.dll.config
+C:\Users\BASECAMP\Desktop\max\BackEnd\BackEnd\bin\Debug\BackEnd.dll
+C:\Users\BASECAMP\Desktop\max\BackEnd\BackEnd\bin\Debug\BackEnd.pdb
+C:\Users\BASECAMP\Desktop\max\BackEnd\BackEnd\bin\Debug\EntityFramework.dll
+C:\Users\BASECAMP\Desktop\max\BackEnd\BackEnd\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\BASECAMP\Desktop\max\BackEnd\BackEnd\bin\Debug\EntityFramework.xml
+C:\Users\BASECAMP\Desktop\max\BackEnd\BackEnd\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\BASECAMP\Desktop\max\BackEnd\BackEnd\obj\Debug\BackEnd.dll
+C:\Users\BASECAMP\Desktop\max\BackEnd\BackEnd\obj\Debug\BackEnd.pdb

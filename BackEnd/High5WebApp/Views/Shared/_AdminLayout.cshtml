@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+
+        <div class="container-fluid">
+
+
+            <img src="asdfas" style="width:100;" class="navbar-brand"></img>
+
+            @Html.ActionLink("HighFiveoulous", "StartUp", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+
+            <p class="btn-link navbar-brand pull-right">Welcome Admin</p>
+            @*<div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        asdf
+                    </ul>
+                </div>*@
+        </div>
+    </div>
+    <br />
+
+    <div class="container-fluid body-content ">
+
+        <div class="col col-md-1 col-sm-12" style="position:fixed;">
+            <div class="bg">MENU</div>
+            <div class="btn-group ">
+                <button class="btn btn-warning" style="width:150px;">@Html.ActionLink("View Students", "StudentView" , new { @class = "btn" })</button>
+                <br />  
+                <br />
+                <br />
+                <button class="btn btn-warning" style="width:150px;">@Html.ActionLink("View Teachers", "TeacherView", new { @class = "btn" })</button>
+                <br>
+                <br />
+                <br />
+                <button class="btn btn-warning" style="width:150px;">@Html.ActionLink("1st Year", "FirstYearView", new { @class = "btn" })</button>
+                <br>
+                <br />
+                <br />
+                <button class="btn btn-warning" style="width:150px;">@Html.ActionLink("2nd Year", "Index", "Home", new { @class = "btn" })</button>
+                <br>
+                <br />
+                <br />
+                <button class="btn btn-warning" style="width:150px;">@Html.ActionLink("3rd Year", "Index", "Home", new { @class = "btn" })</button>
+                <br>
+                <br />
+                <br />
+                <button class="btn btn-warning" style="width:150px;">@Html.ActionLink("4th Year", "Index", "Home", new { @class = "btn" })</button>
+
+
+                <br>
+
+
+                 </div>
+
+
+        </div>
+        <div class="col col-md-8" style="margin-left:200px;">
+            @RenderBody()
+        </div>
+    </div>
+
+
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

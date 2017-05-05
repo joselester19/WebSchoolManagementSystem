@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Main";
+}
+
+<h2>Main</h2>
+<div class="btn-group">
+    <button class="btn-danger text-muted">@Html.ActionLink("View Students", "StudentView", new { @class = "btn" })</button>
+    <button class="btn-danger text-muted">@Html.ActionLink("View Teachers", "TeacherView", new { @class = "btn" })</button>
+    <button class="btn-danger text-muted">@Html.ActionLink("Admin", "Index", "Home", new { @class = "btn" })</button>
+    <button class="btn-danger text-muted">@Html.ActionLink("HighFiveoulous", "Index", "Home", new { @class = "btn" })</button>
+</div>
